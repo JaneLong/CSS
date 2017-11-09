@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<!-- [HTML里面的属性] 作为选择器-->
+<style type="text/css">
+[color="blue"]{
+	background-color: red;
+}
+[class^="col-xs"]{
+	color: blue;
+}
+[class*="md"]{
+	color: red;
+}
+.bg{
+    width: 200px;
+    height: 300px;
+    border: 1px solid red;
+}
+</style>
+</head>
+<body>
+    <font color="blue">css</font>
+    <font size="5">html</font>
+    <font color="yellow">js</font>
+
+    <div class="bg">
+    	<div class="col-md-1">李易峰</div>
+    	<div class="col-md-2">张山峰</div>
+  		<div class="col-xs-3">李连杰</div>
+    	<div class="col-xs-4">邓积极</div>
+    	<div class="col-sm-5">钟汉良</div>
+    	<div class="col-sm-6">鹿晗</div>
+    	<div class="col-md-7">杨紫</div>
+    	<div class="col-md-8">胡一菲</div>
+    </div>
+</body>
+</html>
